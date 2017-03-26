@@ -28,7 +28,7 @@
 #define XDG_SHELL_SERVER_PROTOCOL_H
 
 #ifdef  __cplusplus
-extern "C" {
+//extern "C" {
 #endif
 
 #include <stdint.h>
@@ -685,7 +685,7 @@ xdg_popup_send_popup_done(struct wl_resource *resource_)
 }
 
 #ifdef  __cplusplus
-}
+//}
 #endif
 
 #endif
